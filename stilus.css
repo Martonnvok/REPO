@@ -6,12 +6,16 @@ body{
 
 img{
     width: 200px;
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
 }
 .container{
     margin: auto;
+
 }
 h1{
-    text-align: justify;
+    text-align: center;
 }
 h2{
     text-align: justify;
@@ -31,6 +35,10 @@ h2{
     border-color: red;
 }
 
+ul{
+    list-style-image: url("point.png");
+}
+
 li{
     color: white;
 
@@ -41,6 +49,27 @@ a{
     color: white;
 }
 
+#tartalom2{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-style: solid;
+    border-bottom: 1px;
+    border-top: none;
+    border-color: red;
+    border-right: none;
+    border-left: none;
+}
+#tartalom2 h1{
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: red;
+}
+
+.jobbra{
+    float: right;
+}
 @media screen and (max-width:500px) {
    
     .resz{
